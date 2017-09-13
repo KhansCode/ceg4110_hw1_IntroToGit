@@ -1,0 +1,145 @@
+commit 655973938c3161b88449629c27377edd930459f5
+Author: Muhammad H.Khan <khan.15@wright.edu>
+Date:   Tue Sep 12 19:49:22 2017 -0400
+
+    modified hello a & b
+
+diff --git a/hello4110-a.java b/hello4110-a.java
+index 808abe1..97dc84e 100644
+--- a/hello4110-a.java
++++ b/hello4110-a.java
+@@ -1,6 +1,6 @@
+-class Hello4110{
++class Hello4110a{
+ 	public static void main(String[] args){
+ 		System.out.println("Hello 4110!");
+-		System.out.println("original java file");
++		System.out.println("I am in Hello A");
+ 	}
+ }
+diff --git a/hello4110-b.java b/hello4110-b.java
+index 808abe1..0ceef3d 100644
+--- a/hello4110-b.java
++++ b/hello4110-b.java
+@@ -1,6 +1,6 @@
+-class Hello4110{
++class Hello4110b{
+ 	public static void main(String[] args){
+ 		System.out.println("Hello 4110!");
+-		System.out.println("original java file");
++		System.out.println("I am in Hello B");
+ 	}
+ }
+
+commit 7d4764c5cbee0405c75a18d28953201b60301ff1
+Author: Muhammad H.Khan <khan.15@wright.edu>
+Date:   Tue Sep 12 16:36:11 2017 -0400
+
+    added hello4110-a and b
+
+diff --git a/hello4110-a.java b/hello4110-a.java
+new file mode 100644
+index 0000000..808abe1
+--- /dev/null
++++ b/hello4110-a.java
+@@ -0,0 +1,6 @@
++class Hello4110{
++	public static void main(String[] args){
++		System.out.println("Hello 4110!");
++		System.out.println("original java file");
++	}
++}
+diff --git a/hello4110-b.java b/hello4110-b.java
+new file mode 100644
+index 0000000..808abe1
+--- /dev/null
++++ b/hello4110-b.java
+@@ -0,0 +1,6 @@
++class Hello4110{
++	public static void main(String[] args){
++		System.out.println("Hello 4110!");
++		System.out.println("original java file");
++	}
++}
+
+commit 95e38a90443c8e2cca263ee0ea242d5871249906
+Author: Muhammad H.Khan <khan.15@wright.edu>
+Date:   Tue Sep 12 16:29:35 2017 -0400
+
+    modified java file
+
+diff --git a/hello4110.java b/hello4110.java
+index 5ef41fd..808abe1 100644
+--- a/hello4110.java
++++ b/hello4110.java
+@@ -1,5 +1,6 @@
+ class Hello4110{
+ 	public static void main(String[] args){
+ 		System.out.println("Hello 4110!");
++		System.out.println("original java file");
+ 	}
+ }
+
+commit a5613ae295de329867b58869ed245d2123ca7587
+Author: Muhammad H.Khan <khan.15@wright.edu>
+Date:   Tue Sep 12 16:25:02 2017 -0400
+
+    orig java file added
+
+diff --git a/hello4110.java b/hello4110.java
+new file mode 100644
+index 0000000..5ef41fd
+--- /dev/null
++++ b/hello4110.java
+@@ -0,0 +1,5 @@
++class Hello4110{
++	public static void main(String[] args){
++		System.out.println("Hello 4110!");
++	}
++}
+
+commit 113b8a3347383e7a04a7b9f254b5aafad7400e4a
+Author: Muhammad H.Khan <khan.15@wright.edu>
+Date:   Tue Sep 12 16:11:54 2017 -0400
+
+    add readme file
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..381a8e8
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,33 @@
++Name: Muhammad H. Khan
++Favorite Color: Green
++
++Student Biryani Recipe
++
++Ingredients:
++• Mutton ½ kg
++• RIce ½ kg
++• Salt (for rIce) 3 tsp...
++• Potatoes 3
++• Tomatoes 3 chopped
++• Onion brown 1 cup
++• Green chilies 12 small ones
++• Coriander leaves ½ cup
++• Mint leaves ½ bunches
++• Dried plum 10
++• Kewra Water 1 tsp
++• Yellow color ¼ tsp
++• Oil ¾ cup
++• Salt 1 ½ tsp
++• Chili powder 2 ½ tsp
++• Coriander powder 1 ½ tsp
++• Turmeric powder ¼ tsp
++• All spIce 1 tsp heaped
++• Black Cumin seeds ½ tsp
++• Bay leaf 1
++• Ginger Garlic paste 3 tbsp
++• Yogurt 1 cup beaten 
++
++Method:
++1. Heat ¾ cup oil, fry 1 cup onions, when light golden, add 3 tbsp ginger garlic paste, ½ kg mutton, 3 chopped tomatoes, 12 green chili whole, 1 cup yogurt, 1 ½ tsp salt, 2 ½ tsp chili powder, ¼ tsp turmeric powder, 1 ½ tsp coriander powder, fry well till water dries.
++2. Add 1 ½ cup water and cook till mutton is half done.
++3. Remove oil from the curry and keep aside, add 3 fried potatoes, ½ cup chopped coriander, ½ bunch mint leaves, 1 tsp all spice powder, 1 tsp kewra water and 10 dried plum, cook till all done, boil water with 3 tsp salt, ½ tsp black cumin seeds, 1 bay leaf, add ½ kg rice and boil rice till ½ done, drain and spread rice on top of meat mixture, add the oil which we took out from the curry and yellow color, put to cook on high flame for 10 min, the lower heat completely and simmer for 15 minutes.
